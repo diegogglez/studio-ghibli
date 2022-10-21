@@ -5,6 +5,12 @@ html, body {
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #069dec;
+}
+
+main {
+  display: flex;
+  justify-content: center;
 }
 
 /* Header */
@@ -33,7 +39,6 @@ header {
 
 .navbar {
   width: 50%;
-  /* background-color: gold; */
   display: flex;
   padding: 50px 10px 0px 10px;
 }
@@ -112,7 +117,61 @@ content: ""
 
 /* NEWSLETTER */
 
+.newsletter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+  max-width: 70%;
+  overflow: auto;
+}
+
+.newsletter-container a {
+  text-decoration: none;
+  color:  rgb(11, 11, 11);
+}
+
 .news-card {
+<<<<<<< HEAD
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+  background-color: whitesmoke;
+  gap: 10px;
+}
+
+.news-card:hover {
+  background-color: #f3b3b4;
+  cursor: pointer;
+}
+
+.news-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+
+}
+
+.news-card h2 {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  max-height: 30%;
+}
+
+.text-container p {
+  margin: 0px;
+=======
   width: 100px;
 }
 
@@ -169,5 +228,6 @@ content: ""
   text-align: center;
   line-height: 1.2em;
   width: 100%;
+>>>>>>> afe17a3810ba213377f3be1f03187fa2559e435a
 }
 
