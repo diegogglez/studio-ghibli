@@ -25,6 +25,7 @@ for (let news of newsInfo) {
   newsContainer.appendChild(newsImgContainer);
   newsContainer.appendChild(newsTitle);
   newsLetterContainer.appendChild(newsContainer);
+  
 }
 
 
