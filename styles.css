@@ -129,11 +129,10 @@ content: ""
 
 .newsletter-container a {
   text-decoration: none;
-  color:  rgb(11, 11, 11);
+  color: #2f4744;
 }
 
 .news-card {
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -143,11 +142,15 @@ content: ""
   padding: 15px;
   background-color: whitesmoke;
   gap: 10px;
+  border: 3px solid #a16468;
+  border-radius: 20px;
+  
 }
 
 .news-card:hover {
   background-color: #f3b3b4;
   cursor: pointer;
+ 
 }
 
 .news-card img {
@@ -167,12 +170,11 @@ content: ""
   justify-content: center;
   overflow: auto;
   max-height: 30%;
+  width: 100%;
 }
 
 .text-container p {
   margin: 0px;
-=======
-  width: 100px;
 }
 
 
@@ -228,6 +230,5 @@ content: ""
   text-align: center;
   line-height: 1.2em;
   width: 100%;
->>>>>>> afe17a3810ba213377f3be1f03187fa2559e435a
 }
 
